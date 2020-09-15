@@ -37,3 +37,9 @@ Epilogue:
 
 -------------------------
 '''
+
+# readline prevents NULL from being submitted via cli
+import os, sys, readline, random
+import pygame as pg
+from pygame.locals import *
+
